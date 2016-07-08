@@ -1,0 +1,26 @@
+$("#Search").click(function(){
+   var answer= $("#Search").val();
+   
+   $(document).ready(
+  function() {
+    $.get(
+      'https://api.foursquare.com/v2/venues/search?client_id=HILGMAMBCJC1CJPLCOSWNOWXFWUFPKGV41ANHFEM32C20LKV&client_secret=F4WWRZ44GGATN3JRV4VHP5DLBFLWQEBX221JWHOJIZ32L4ZT&v=20130815&ll=40.7,-74&query=sushi',
+      function(response) {
+        console.log(response);
+        
+    );
+  }
+);
+
+   $("#answer").append(<ul></ul>);
+});
+
+if {
+    "#location"== blank
+    return error || 
+    "#food"== blank
+    return error
+}else {
+    "#location" && "#food"== filled
+    return <li>results</li>
+}
